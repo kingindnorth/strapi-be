@@ -10,12 +10,12 @@
     "strapi": "strapi",
     "seed": "strapi import -f ./seed-data.tar.gz"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.10.4",
-    "@strapi/plugin-users-permissions": "4.10.4",
     "@strapi/plugin-i18n": "4.10.4",
-    "better-sqlite3": "8.0.1"
+    "@strapi/plugin-users-permissions": "4.10.4",
+    "@strapi/strapi": "4.10.4",
+    "better-sqlite3": "8.0.1",
+    "nodemailer": "^7.0.3"
   },
   "author": {
     "name": "A Strapi developer"
